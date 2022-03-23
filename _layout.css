@@ -1,18 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap');
-$font-headings: 'Risque', serif;
-$font-texts: 'Roboto', sans-serif;
-$button-color: #393939;
-$button-text-color: #7102ff;
-$heading-color: #ffffff;
+@import url("https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .page-background {
   background: url(portfolio-background.jpg);
   background-size: cover;
 }
+
 .home-background {
   background: url(portfolio-wolf.jpg);
 }
@@ -23,26 +20,28 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  nav {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    a {
-      height: 50%;
-      width: 20%;
-      margin: 20px 30px;
-      align-content: center;
-    }
-  }
 }
+header nav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+header nav a {
+  height: 50%;
+  width: 20%;
+  margin: 20px 30px;
+  align-content: center;
+}
+
 .home-header-h1 {
   height: 90%;
   width: 30%;
   margin-right: 15%;
 }
+
 .banner-img {
   height: 100%;
   width: 30%;
@@ -56,12 +55,14 @@ main {
 footer {
   height: 30vh;
 }
+
 .footer-heading {
   display: flex;
   align-items: center;
   padding-left: 30px;
   padding-top: 50px;
 }
+
 .footer-heading2 {
   display: flex;
   align-items: center;
