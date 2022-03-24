@@ -10,7 +10,7 @@ a {
   text-decoration: none;
   text-align: center;
   font-family: $font-texts;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: $button-color;
   color: $button-text-color;
 }
@@ -26,6 +26,7 @@ h1 {
   background-color: #c4c4c4;
   font-family: $font-texts;
   color: $button-text-color;
+  border-radius: 10px;
 }
 p {
   font-family: $font-texts;

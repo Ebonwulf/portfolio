@@ -71,7 +71,8 @@ div {
 
 .project-boxes {
   margin: 5%;
-  width: 20%;
+  margin-left: 15%;
+  width: 60%;
   height: 20vh;
   text-align: center;
 }
@@ -107,7 +108,7 @@ a {
   text-decoration: none;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #393939;
   color: #7102ff;
 }
@@ -123,6 +124,7 @@ h1 {
   background-color: #c4c4c4;
   font-family: "Roboto", sans-serif;
   color: #7102ff;
+  border-radius: 10px;
 }
 
 p {
