@@ -14,6 +14,9 @@ a {
   background-color: $button-color;
   color: $button-text-color;
 }
+a:hover {
+  background-color: $font-color;
+}
 
 h1 {
   font-family: $font-headings;
@@ -27,11 +30,22 @@ h1 {
   font-family: $font-texts;
   color: $button-text-color;
   border-radius: 10px;
+  box-shadow: 3px 3px $button-text-color;
+  opacity: 0.8;
+}
+.project-boxes:hover {
+  opacity: 1;
+}
+h2 {
+  font-family: $font-headings;
+  color: $heading-color;
+  font-size: 48px;
 }
 p {
   font-family: $font-texts;
   font-size: 36px;
   color: $font-color;
+  margin-bottom: 2%;
 }
 
 footer {
