@@ -4,6 +4,8 @@ $font-texts: 'Roboto', sans-serif;
 $button-color: #393939;
 $button-text-color: #7102ff;
 $heading-color: #ffffff;
+$font-color: #e4d0fe;
+
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +52,31 @@ header {
 }
 
 main {
+  margin-top: 40px;
   height: 60vh;
+}
+.main {
+  height: 80vh;
+}
+div {
+  margin: 2% 25%;
+  background: linear-gradient(
+    180deg,
+    rgba(151, 151, 151, 0.26) 0%,
+    rgba(196, 196, 196, 0.26) 100%
+  );
+  height: 75vh;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.project-boxes {
+  margin: 5%;
+  width: 20%;
+  height: 20vh;
+  text-align: center;
 }
 
 footer {

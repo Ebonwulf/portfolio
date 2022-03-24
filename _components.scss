@@ -2,9 +2,7 @@ header {
   background-color: black;
 }
 .home-header-h1 {
-  color: $heading-color;
   font-size: 48px;
-  font-family: $font-headings;
   text-align: center;
 }
 a {
@@ -17,12 +15,28 @@ a {
   color: $button-text-color;
 }
 
+h1 {
+  font-family: $font-headings;
+  color: $heading-color;
+  text-align: center;
+  font-size: 72px;
+}
+
+.project-boxes {
+  background-color: #c4c4c4;
+  font-family: $font-texts;
+  color: $button-text-color;
+}
+p {
+  font-family: $font-texts;
+  font-size: 36px;
+  color: $font-color;
+}
+
 footer {
   background: linear-gradient(180deg, rgba(88, 1, 230, 0) 0%, #130031 100%);
 }
 .footer-heading {
-  font-family: $font-headings;
-  color: $heading-color;
   font-size: 72px;
 }
 .footer-heading2 {
