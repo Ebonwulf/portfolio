@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -59,7 +59,11 @@ main {
 
 div {
   margin: 2% 25%;
-  background: linear-gradient(180deg, rgba(151, 151, 151, 0.26) 0%, rgba(196, 196, 196, 0.26) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(151, 151, 151, 0.26) 0%,
+    rgba(196, 196, 196, 0.26) 100%
+  );
   height: 75vh;
 }
 
@@ -87,6 +91,19 @@ p {
 
 .contact-a {
   margin: 2%;
+  font-size: 28px;
+  text-decoration: none;
+  color: #e4d0fe;
+  width: 5vh;
+  height: 10%;
+}
+.contact-a:hover {
+  background-color: black;
+}
+.contact-img {
+  width: 5%;
+  height: 10%;
+  border-radius: 15px;
 }
 
 footer {
@@ -115,11 +132,11 @@ header {
   text-align: center;
 }
 
-a {
+.nav-a {
   font-size: 36px;
   text-decoration: none;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 15px;
   background-color: #393939;
   color: #7102ff;
@@ -130,7 +147,7 @@ a:hover {
 }
 
 h1 {
-  font-family: "Risque", serif;
+  font-family: 'Risque', serif;
   color: #ffffff;
   text-align: center;
   font-size: 72px;
@@ -138,7 +155,7 @@ h1 {
 
 .project-boxes {
   background-color: #c4c4c4;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #7102ff;
   border-radius: 10px;
   box-shadow: 3px 3px #7102ff;
@@ -150,13 +167,13 @@ h1 {
 }
 
 h2 {
-  font-family: "Risque", serif;
+  font-family: 'Risque', serif;
   color: #ffffff;
   font-size: 48px;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   color: #e4d0fe;
   margin-bottom: 2%;
@@ -171,7 +188,7 @@ footer {
 }
 
 .footer-heading2 {
-  font-family: "Risque", serif;
+  font-family: 'Risque', serif;
   color: #ffffff;
   font-size: 72px;
 }

@@ -5,7 +5,7 @@ header {
   font-size: 48px;
   text-align: center;
 }
-a {
+.nav-a {
   font-size: 36px;
   text-decoration: none;
   text-align: center;
@@ -25,6 +25,13 @@ h1 {
   font-size: 72px;
 }
 
+div {
+  background: linear-gradient(
+    180deg,
+    rgba(151, 151, 151, 0.26) 0%,
+    rgba(196, 196, 196, 0.26) 100%
+  );
+}
 .project-boxes {
   background-color: #c4c4c4;
   font-family: $font-texts;
@@ -46,6 +53,18 @@ p {
   font-size: 36px;
   color: $font-color;
   margin-bottom: 2%;
+}
+
+.contact-a {
+  font-size: 28px;
+  text-decoration: none;
+  color: $font-color;
+}
+.contact-a:hover {
+  background-color: black;
+}
+.contact-img {
+  border-radius: 15px;
 }
 
 footer {
