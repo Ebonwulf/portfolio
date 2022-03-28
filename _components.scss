@@ -2,11 +2,11 @@ header {
   background-color: black;
 }
 .home-header-h1 {
-  font-size: 48px;
+  font-size: 3em;
   text-align: center;
 }
 .nav-a {
-  font-size: 36px;
+  font-size: 2.25em;
   text-decoration: none;
   text-align: center;
   font-family: $font-texts;
@@ -22,7 +22,7 @@ h1 {
   font-family: $font-headings;
   color: $heading-color;
   text-align: center;
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 div {
@@ -33,7 +33,7 @@ div {
   );
 }
 .project-boxes {
-  background-color: #c4c4c4;
+  background-color: #e4d0fe;
   font-family: $font-texts;
   color: $button-text-color;
   border-radius: 10px;
@@ -46,35 +46,42 @@ div {
 h2 {
   font-family: $font-headings;
   color: $heading-color;
-  font-size: 48px;
+  font-size: 3em;
 }
 p {
   font-family: $font-texts;
-  font-size: 36px;
+  font-size: 2.25em;
   color: $font-color;
   margin-bottom: 2%;
 }
 
+.contact-a-div {
+  background-color: rgba(0, 0, 0, 0.205);
+}
 .contact-a {
-  font-size: 28px;
   text-decoration: none;
   color: $font-color;
 }
 .contact-a:hover {
-  background-color: black;
+  background-color: $button-text-color;
+  border-radius: 20px;
 }
 .contact-img {
   border-radius: 15px;
+}
+.contact-para {
+  text-align: left;
+  font-size: 1.75em;
 }
 
 footer {
   background: linear-gradient(180deg, rgba(88, 1, 230, 0) 0%, #130031 100%);
 }
 .footer-heading {
-  font-size: 72px;
+  font-size: 4.5em;
 }
 .footer-heading2 {
   font-family: $font-headings;
   color: $heading-color;
-  font-size: 72px;
+  font-size: 4.5em;
 }

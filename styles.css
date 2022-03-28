@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @media only screen and (max-width: 620px) {
+    html {
+      width: 100%;
+    }
+  }
 }
 
 .page-background {
@@ -12,34 +17,31 @@
 
 .home-background {
   background: url(portfolio-wolf.jpg);
+  background-size: cover;
 }
 
 header {
   width: 100%;
   height: 10vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 header nav {
   width: 60%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
+  margin-left: 20%;
 }
 header nav a {
-  height: 50%;
+  height: 8vh;
   width: 20%;
-  margin: 20px 30px;
-  align-content: center;
+  margin: 0% 2%;
 }
 
 .home-header-h1 {
   height: 90%;
   width: 30%;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .banner-img {
@@ -64,7 +66,7 @@ div {
     rgba(151, 151, 151, 0.26) 0%,
     rgba(196, 196, 196, 0.26) 100%
   );
-  height: 75vh;
+  height: 95vh;
 }
 
 .projects-container {
@@ -80,6 +82,10 @@ div {
   height: 20vh;
   text-align: center;
 }
+.project-img {
+  width: 100%;
+  height: 80%;
+}
 
 h2 {
   margin: 1%;
@@ -87,23 +93,36 @@ h2 {
 
 p {
   text-align: center;
+  padding: 10px;
 }
 
 .contact-a {
   margin: 2%;
-  font-size: 28px;
   text-decoration: none;
   color: #e4d0fe;
-  width: 5vh;
-  height: 10%;
+  width: 35%;
+  height: 75%;
 }
 .contact-a:hover {
-  background-color: black;
+  background-color: #7102ff;
+  border-radius: 20px;
 }
 .contact-img {
-  width: 5%;
-  height: 10%;
+  width: 95%;
+  height: 95%;
   border-radius: 15px;
+}
+.contact-a-div {
+  margin: 0;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.205);
+}
+.contact-para {
+  text-align: left;
+  font-size: 1.75em;
 }
 
 footer {
@@ -128,12 +147,12 @@ header {
 }
 
 .home-header-h1 {
-  font-size: 48px;
+  font-size: 3em;
   text-align: center;
 }
 
 .nav-a {
-  font-size: 36px;
+  font-size: 2.25em;
   text-decoration: none;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -150,11 +169,11 @@ h1 {
   font-family: 'Risque', serif;
   color: #ffffff;
   text-align: center;
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 .project-boxes {
-  background-color: #c4c4c4;
+  background-color: #e4d0fe;
   font-family: 'Roboto', sans-serif;
   color: #7102ff;
   border-radius: 10px;
@@ -169,12 +188,12 @@ h1 {
 h2 {
   font-family: 'Risque', serif;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 3em;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 36px;
+  font-size: 2.25em;
   color: #e4d0fe;
   margin-bottom: 2%;
 }
@@ -184,11 +203,11 @@ footer {
 }
 
 .footer-heading {
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 .footer-heading2 {
   font-family: 'Risque', serif;
   color: #ffffff;
-  font-size: 72px;
+  font-size: 4.5em;
 }
