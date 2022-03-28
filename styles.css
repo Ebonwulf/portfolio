@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  @media only screen and (max-width: 620px) {
-    html {
-      width: 100%;
-    }
-  }
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap");
 .page-background {
   background: url(portfolio-background.jpg);
   background-size: cover;
@@ -30,28 +19,26 @@ header {
 header nav {
   width: 60%;
   height: 100%;
-  margin-left: 20%;
+  margin-left: 30%;
 }
-header nav a {
-  height: 8vh;
+header nav .nav-a {
+  height: 60%;
   width: 20%;
-  margin: 0% 2%;
+  margin: 0% 4%;
 }
 
 .home-header-h1 {
   height: 90%;
   width: 30%;
-  margin-right: 10%;
 }
 
 .banner-img {
   height: 100%;
   width: 30%;
-  margin-right: 10%;
 }
 
 main {
-  margin-top: 40px;
+  margin-top: 4%;
   height: 60vh;
 }
 
@@ -61,11 +48,6 @@ main {
 
 div {
   margin: 2% 25%;
-  background: linear-gradient(
-    180deg,
-    rgba(151, 151, 151, 0.26) 0%,
-    rgba(196, 196, 196, 0.26) 100%
-  );
   height: 95vh;
 }
 
@@ -82,6 +64,7 @@ div {
   height: 20vh;
   text-align: center;
 }
+
 .project-img {
   width: 100%;
   height: 80%;
@@ -96,33 +79,25 @@ p {
   padding: 10px;
 }
 
-.contact-a {
-  margin: 2%;
-  text-decoration: none;
-  color: #e4d0fe;
-  width: 35%;
-  height: 75%;
-}
-.contact-a:hover {
-  background-color: #7102ff;
-  border-radius: 20px;
-}
-.contact-img {
-  width: 95%;
-  height: 95%;
-  border-radius: 15px;
-}
 .contact-a-div {
   margin: 0;
   height: 60vh;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: rgba(0, 0, 0, 0.205);
+  gap: 5px;
 }
-.contact-para {
-  text-align: left;
-  font-size: 1.75em;
+
+.contact-a {
+  margin: 2%;
+  width: 30%;
+  height: 70%;
+}
+
+.contact-img {
+  width: 95%;
+  height: 95%;
+  border-radius: 15px;
 }
 
 footer {
@@ -139,7 +114,26 @@ footer {
 .footer-heading2 {
   display: flex;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 8%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 620px) {
+  * html {
+    width: 100%;
+  }
+  * .contact-a-div {
+    display: grid;
+    grid-template-columns: 1f;
+  }
+  * .contact-a {
+    width: 100px;
+    height: 100%;
+  }
 }
 
 header {
@@ -155,7 +149,7 @@ header {
   font-size: 2.25em;
   text-decoration: none;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border-radius: 15px;
   background-color: #393939;
   color: #7102ff;
@@ -166,15 +160,19 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Risque', serif;
+  font-family: "Risque", serif;
   color: #ffffff;
   text-align: center;
   font-size: 4.5em;
 }
 
+div {
+  background: linear-gradient(180deg, rgba(151, 151, 151, 0.26) 0%, rgba(196, 196, 196, 0.26) 100%);
+}
+
 .project-boxes {
   background-color: #e4d0fe;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #7102ff;
   border-radius: 10px;
   box-shadow: 3px 3px #7102ff;
@@ -186,16 +184,39 @@ h1 {
 }
 
 h2 {
-  font-family: 'Risque', serif;
+  font-family: "Risque", serif;
   color: #ffffff;
   font-size: 3em;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.25em;
   color: #e4d0fe;
   margin-bottom: 2%;
+}
+
+.contact-a-div {
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+.contact-a {
+  text-decoration: none;
+  color: #e4d0fe;
+}
+
+.contact-a:hover {
+  background-color: #7102ff;
+  border-radius: 20px;
+}
+
+.contact-img {
+  border-radius: 15px;
+}
+
+.contact-para {
+  text-align: left;
+  font-size: 1.75em;
 }
 
 footer {
@@ -207,7 +228,7 @@ footer {
 }
 
 .footer-heading2 {
-  font-family: 'Risque', serif;
+  font-family: "Risque", serif;
   color: #ffffff;
   font-size: 4.5em;
 }
