@@ -10,7 +10,7 @@ header {
   text-decoration: none;
   text-align: center;
   font-family: $font-texts;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: $button-color;
   color: $button-text-color;
 }
@@ -23,6 +23,7 @@ h1 {
   color: $heading-color;
   text-align: center;
   font-size: 4.5em;
+  margin-bottom: 1%;
 }
 
 div {
@@ -56,7 +57,7 @@ p {
 }
 
 .contact-a-div {
-  background-color: rgba(0, 0, 0, 0.205);
+  background: none;
 }
 .contact-a {
   text-decoration: none;
