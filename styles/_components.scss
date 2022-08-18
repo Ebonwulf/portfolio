@@ -34,7 +34,7 @@ div {
   );
 }
 .project-boxes {
-  background-color: #e4d0fe;
+  background-color: #e4d0feb0;
   font-family: $font-texts;
   color: $button-text-color;
   border-radius: 10px;
@@ -43,6 +43,14 @@ div {
 }
 .project-boxes:hover {
   opacity: 1;
+}
+.projects-para {
+  font-family: $font-texts;
+  color: $button-text-color;
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.7em;
 }
 h2 {
   font-family: $font-headings;
